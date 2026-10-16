@@ -24,7 +24,7 @@ from sqlalchemy.types import TypeDecorator
 
 
 def utcnow() -> datetime:
-    """Timezone-aware UTC now.
+    """Return the current time as a timezone-aware UTC datetime.
 
     Never use datetime.utcnow(): it returns a naive object that claims to be
     local time, and the comparison bugs it causes surface only when the
