@@ -1,4 +1,4 @@
-"""Configuration.
+"""Configuration of the scoreboard service.
 
 Every setting comes from an environment variable. Nothing is read from a file
 that lives only on a developer's machine, and nothing is hardcoded. That is a
